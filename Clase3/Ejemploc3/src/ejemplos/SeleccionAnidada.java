@@ -23,7 +23,7 @@ public class SeleccionAnidada {
         System.out.println("Ingrese su calificación:");
         calificacion = entrada.nextDouble();
 
-        if (calificacion >= 90) {
+        if (calificacion >= 90 && calificacion <= 100) {
             System.out.printf("Estudiante: %s\nAprobado\nCon: %f\n", estudiante.toUpperCase(),calificacion);
         } else {
             if (calificacion < 90 && calificacion >= 80) {
